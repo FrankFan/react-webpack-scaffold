@@ -13,7 +13,7 @@ var config = {
   entry: [
     'webpack-dev-server/client?http://127.0.0.1:8000',
     'webpack/hot/only-dev-server',
-    './src/components/run'
+    './src/run'
   ],
   cache: true,
   devtool: 'eval',
@@ -51,12 +51,7 @@ var config = {
       //   test: /\.(js|jsx)$/,
       //   include: path.join(__dirname, 'src'),
       //   loader: 'eslint-loader'
-      // },
-      {
-        test: /\.(js|jsx)$/,
-        loader: 'react-hot!babel-loader',
-        include: path.join(__dirname, 'src')
-      }
+      // }
     ],
     loaders: [
       {
