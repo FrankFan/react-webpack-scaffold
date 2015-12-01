@@ -9,7 +9,7 @@ class AppComponent extends React.Component {
   render() {
     return (
       <div className="userMgr">
-        {/*<AddComponent />*/}
+        <AddComponent />
       </div>
     );
   }
