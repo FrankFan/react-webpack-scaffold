@@ -1,0 +1,6 @@
+{
+  "name": "PayConfirm",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./PayConfirm.js"
+}

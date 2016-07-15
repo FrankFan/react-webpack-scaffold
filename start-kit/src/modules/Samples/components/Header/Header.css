@@ -1,0 +1,18 @@
+:root {
+  --brand-color: #61dafb;
+}
+
+.Header {
+  color: #fff;
+  background: #999;
+
+  &-container {
+    max-width: var(--max-content-width);
+    padding: 3.3rem 0;
+    margin: 0 auto;
+  }
+
+  p {
+    text-align: center;
+  }
+}

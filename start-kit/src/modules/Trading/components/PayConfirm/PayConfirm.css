@@ -1,0 +1,156 @@
+@import 'luui/src/styles/variables.css';
+
+.PayConfirm {
+  padding-bottom: 5rem;
+
+  .hidden {
+    display: none;
+  }
+
+  &-quickpay {
+    margin-top: 1rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+  }
+
+  &-otp {
+    margin-top: 1.1rem;
+
+    .InputText {
+      &-label {
+        width: 4.5rem;
+        padding-right: 0;
+        margin-right: 2rem;
+      }
+    }
+  }
+
+  &-otp-text {
+    margin: 1rem 1.5rem 0 1.5rem;
+    color: var(--Color-Base-Normal2);
+    font-size: 1.2rem;
+
+    .button {
+      text-align: right;
+    }
+  }
+
+  &-otp-switch {
+    color: var(--Color-Base-Weak3);
+  }
+
+  &-otp-voice {
+    margin: 1rem 1.5rem 0 1.5rem;
+    color: var(--Color-Base-Normal2);
+    font-size: 1.2rem;
+  }
+
+  &-pwdtext {
+    margin: 2.1rem 1.6rem 0 1.6rem;
+    color: var(--Color-Base-Important2);
+
+    div:first-of-type {
+      margin-bottom: 0.4rem;
+    }
+  }
+
+  &-pwdtext-tip1 {
+    font-size: 1.5rem;
+  }
+
+  &-pwdtext-tip2 {
+    font-size: 1.2rem;
+  }
+
+  &-pwd {
+    margin-top: 0.9rem;
+
+    .Password {
+      padding: 0 1.6rem;
+    }
+  }
+
+  &-nopwd {
+    .InputPassword-label {
+      display: none;
+    }
+  }
+
+  &-btn {
+    margin-top: 3rem;
+    margin-bottom: 0;
+    padding: 0 1.6rem;
+  }
+
+  &-tip {
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--Color-Base-Important1);
+    font-size: 1.2rem;
+  }
+
+  &-checkbox-color {
+    .icon-checkbox {
+      color: #fc7946 !important;
+    }
+  }
+
+  &-banks-text {
+    text-align: left;
+    padding-left: 0.8rem;
+
+    li::before {
+      content: '• ';
+      margin-left: -0.8rem;
+    }
+
+    li {
+      margin-top: 1rem;
+    }
+  }
+
+  &-phone-text {
+    text-align: left;
+  }
+
+  /* Begin: override for quickpay input */
+  .Custom-Line {
+    background: white;
+    padding-left: 1.5rem;
+
+    .InputText {
+      padding-left: 0;
+
+      &-label {
+        width: 6rem;
+        padding-right: 0;
+        margin-right: 2rem;
+      }
+    }
+
+    .InputPassword {
+      &-label {
+        width: 6rem;
+        padding-right: 0;
+        margin-right: 2rem;
+      }
+    }
+  }
+
+  &-bankno {
+    .InputText {
+      border-width: 0;
+    }
+  }
+
+  &-otpno {
+    padding: 0 11rem 0 1.5rem;
+
+    .InputText {
+      padding-right: 0;
+      border-width: 0;
+    }
+  }
+
+  /* End */
+}

@@ -1,0 +1,67 @@
+@import 'luui/src/styles/variables.css';
+
+.TradeConfirm {
+  .hidden {
+    display: none;
+  }
+
+  &-warning {
+    height: 3rem;
+    background: #fff6d4;
+    color: #fc7946;
+    text-align: center;
+
+    span {
+      line-height: 3rem;
+      font-size: 1.3rem;
+    }
+  }
+
+  &-kyc {
+    padding: 0.8rem 1.5rem;
+    background-color: white;
+  }
+
+  &-panel {
+    margin-top: 1.2rem;
+  }
+
+  &-DocPanel {
+    ul {
+      li {
+        font-size: var(--LUUIFontSize13);
+      }
+
+      li:last-of-type {
+        font-size: var(--LUUIFontSize15);
+        color: #13334d;
+      }
+    }
+  }
+
+  &-amount {
+    color: #fc7946;
+    font-size: var(--LUUIFontSize18);
+
+    span {
+      color: #13334d;
+      font-size: var(--LUUIFontSize15);
+    }
+  }
+
+  &-readme {
+    padding: 0 1.5rem;
+    color: var(--Color-Base-Normal2);
+    font-size: var(--LUUIFontSize11);
+  }
+
+  &-checkbox-color {
+    .icon-checkbox {
+      color: #fc7946 !important;
+    }
+  }
+
+  &-btn {
+    padding: 0 1.5rem 3rem;
+  }
+}

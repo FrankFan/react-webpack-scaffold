@@ -1,0 +1,47 @@
+@import 'luui/src/styles/variables.css';
+
+.TradeResult {
+  .hidden {
+    display: none;
+  }
+
+  &-success {
+    padding-bottom: 0.1rem;
+  }
+
+  &-failure {
+    padding-bottom: 0.1rem;
+  }
+
+  &-progress {
+    background-color: #fff;
+    padding: 2rem 3rem;
+  }
+
+  &-readme {
+    background-color: #fff;
+    padding: 1.5rem 2rem;
+  }
+
+  &-download {
+    margin-top: 1.2rem;
+  }
+
+  &-buttons {
+    background-color: #fff;
+    padding: 0 1rem 2rem 1rem;
+  }
+
+  &-left {
+    margin-right: 0.5rem;
+  }
+
+  &-right {
+    margin-left: 0.5rem;
+  }
+
+  &-button {
+    height: 3.5rem;
+    line-height: 3.5rem;
+  }
+}

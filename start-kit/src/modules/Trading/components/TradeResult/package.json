@@ -1,0 +1,6 @@
+{
+  "name": "TradeResult",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./TradeResult.js"
+}

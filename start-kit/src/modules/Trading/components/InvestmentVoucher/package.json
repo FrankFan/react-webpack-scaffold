@@ -1,0 +1,6 @@
+{
+  "name": "InvestmentVoucher",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./InvestmentVoucher.js"
+}

@@ -1,0 +1,13 @@
+@import 'luui/src/styles/variables.css';
+
+.List {
+  background: var(--Color-Base-Weak2);
+
+  .ListCard {
+    margin-top: 1.0rem;
+
+    .DiscountBanner {
+      padding: 0;
+    }
+  }
+}

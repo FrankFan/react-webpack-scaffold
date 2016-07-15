@@ -1,0 +1,6 @@
+@import 'luui/src/styles/variables.css';
+@import '../../components/App/App.css';
+@import '../../components/Banner/Banner.css';
+@import '../../components/Footer/Footer.css';
+@import '../../components/Header/Header.css';
+@import '../../components/SideBar/SideBar.css';
